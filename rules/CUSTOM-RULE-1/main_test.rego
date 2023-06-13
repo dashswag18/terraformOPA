@@ -3,7 +3,7 @@ package rules
 import data.lib
 import data.lib.testing
 
-test_CUSTOM_RULE_10 {
+test_CUSTOM_RULE_1 {
 	# array containing test cases where the rule is allowed
 	allowed_test_cases := [{
 		"want_msgs": [],
