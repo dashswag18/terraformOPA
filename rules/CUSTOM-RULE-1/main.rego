@@ -17,7 +17,7 @@ deny[msg] {
     aws_iam_user_tags_missing(resource)
 
 	msg := {
-		"publicId": "CUSTOM-RULE-10",
+		"publicId": "CUSTOM-RULE-1",
 		"title": "IAM user missing one of the required tags: owner, description or type",
 		"severity": "medium",
 		"msg": sprintf("input.resource.aws_iam_user[%s].tags", [name]),
