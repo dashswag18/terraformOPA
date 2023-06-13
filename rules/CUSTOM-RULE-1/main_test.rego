@@ -22,5 +22,5 @@ test_CUSTOM_RULE_1 {
 	}]
 
 	test_cases := array.concat(allowed_test_cases, denied_test_cases)
-	testing.evaluate_test_cases("CUSTOM-RULE-10", "./rules/CUSTOM-RULE-10/fixtures", test_cases)
+	testing.evaluate_test_cases("CUSTOM-RULE-1", "./rules/CUSTOM-RULE-1/fixtures", test_cases)
 }
